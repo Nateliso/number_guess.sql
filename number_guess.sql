@@ -90,18 +90,13 @@ ALTER TABLE ONLY public.users ALTER COLUMN user_id SET DEFAULT nextval('public.u
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.users VALUES (1, 'Charles', 0, NULL);
-INSERT INTO public.users VALUES (2, 'user_1739000430737', 0, NULL);
-INSERT INTO public.users VALUES (3, 'user_1739000430736', 0, NULL);
-INSERT INTO public.users VALUES (4, 'user_1739000597082', 0, NULL);
-INSERT INTO public.users VALUES (5, 'user_1739000597081', 0, NULL);
 
 
 --
 -- Name: users_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.users_user_id_seq', 5, true);
+SELECT pg_catalog.setval('public.users_user_id_seq', 53, true);
 
 
 --
